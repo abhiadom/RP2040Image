@@ -1,0 +1,17 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Build and Copy UF2",
+        "type": "shell",
+        "command": "mkdir -p build && cd build && cmake .. && make && cp *.uf2 /mnt/d_drive",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": ["$gcc"],
+        "detail": "Generated task by Activitus Bar"
+      }
+    ]
+  }
+  

@@ -1,0 +1,28 @@
+{
+    "workbench.colorTheme": "Default Dark+",
+    "terminal.integrated.defaultProfile.linux": "bash",
+    "workbench.startupEditor": "none",
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#333333",
+        "sideBar.background": "#282828",
+        "editor.background": "#1e1e1e"
+    },
+    "terminal.integrated.profiles.linux": {
+        "bash": {
+            "path": "/bin/bash"
+        }
+    },
+    "window.zoomLevel": 1,
+    "taskrunner.autoStart": true,
+    "taskrunner.autoRun": "onOpen",
+    "terminal.integrated.shellArgs.linux": ["-c", "picocom /dev/ttyUSB0"],
+    "activitusbar.commands": [
+    {
+      "text": "Build & Copy",
+      "tooltip": "Build the project and copy the UF2 file",
+      "color": "#00FF00",
+      "command": "workbench.action.tasks.runTask",
+      "arguments": ["Build and Copy UF2"]
+    }
+  ],
+}
